@@ -1,6 +1,6 @@
 # 📧 Mock Email Sender (Node.js + JS Frontend)
 
-Mockemail is a project that helps developers test email features without using real email accounts. It creates fake email addresses and simulates sending and receiving emails.It uses multiple email providers (like MockProvider1 and MockProvider2) to ensure reliability—if one fails, it automatically switches to another. The service includes rate limiting to prevent overuse, idempotency checks to avoid duplicate emails, and automatic retries with increasing delays if sending fails. It also keeps track of each email's status and logs all attempts for debugging.
+Mockemail is a project that helps developers test email features without using real email accounts. It creates fake email addresses and simulates sending emails.It uses multiple email providers (like MockProvider1 and MockProvider2) to ensure reliability—if one fails, it automatically switches to another. The service includes rate limiting to prevent overuse, idempotency checks to avoid duplicate emails, and automatic retries with increasing delays if sending fails. It also keeps track of each email's status and logs all attempts for debugging.
 
 ### 🌟 Features
 
